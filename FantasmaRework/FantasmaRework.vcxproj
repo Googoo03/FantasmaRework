@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{525525d7-e08e-4834-8d9c-1a66011f33e2}</ProjectGuid>
+    <RootNamespace>FantasmaRework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Bandit.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Bard.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\bardItem.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Boss.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Character.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Dungeon.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Fighter.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\fighterItem.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\FightScreen.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\FightTest.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Item.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Location.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Mage.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\mageItem.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\mainFile.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Map.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\NameGenerator.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\PerlinNoise.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Tank.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\tankItem.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\test.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Town.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\tests\itemTest.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\tests\test2.cpp" />
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\tests\testSpace.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\.gitignore" />
+    <None Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\.gitmodules" />
+    <None Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\CMakeLists.txt" />
+    <Text Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\FantasyAdjectives.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Bandit.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Bard.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\bardItem.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Boss.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Character.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Dungeon.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Fighter.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\fighterItem.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\FightScreen.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Item.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Location.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Mage.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\mageItem.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Map.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\NameGenerator.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\PerlinNoise.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Tank.h" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\tankItem.hpp" />
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Town.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

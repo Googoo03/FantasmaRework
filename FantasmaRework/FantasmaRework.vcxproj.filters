@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{8e085ff6-2aad-4fdc-a332-448cde052e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="googletest">
+      <UniqueIdentifier>{f338995b-0499-4ba7-b4d3-bb40f6345a72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Bandit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Bard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\bardItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Boss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Dungeon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Fighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\fighterItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\FightScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\FightTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Mage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\mageItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\mainFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\NameGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\PerlinNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Tank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\tankItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\src\Town.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\tests\itemTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\tests\test2.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\tests\testSpace.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\.gitignore" />
+    <None Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\.gitmodules" />
+    <None Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\CMakeLists.txt" />
+    <Text Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\FantasyAdjectives.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Bandit.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Bard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\bardItem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Boss.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Dungeon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Fighter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\fighterItem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\FightScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Item.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Mage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\mageItem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\NameGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\PerlinNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Tank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\tankItem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\final-project-sverm018-amont145-pdesa018-nkara012-master\final-project-sverm018-amont145-pdesa018-nkara012-master\header\Town.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
